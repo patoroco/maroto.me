@@ -28,6 +28,77 @@ blockquote {padding: 16px; background: #eee;}
 
 
 
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  width: 640px;
+  background: red;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin: 20px 0;
+  font-size: 2.5rem;
+  font-family: 'Passion One', cursive;
+}
+
+#social-links li{
+  display: inline;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#social-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Courier New";
+}
+
+#last-talks {
+  margin-top: 50px;
+}
+
+#last-talks h1 {
+  font-size: 1.5rem;
+}
+
+
 /* Media queries
 -------------------------------------------------------------------------------*/
 
