@@ -102,12 +102,12 @@ header h1 {
 -------------------------------------------------------------------------------*/
 @media only screen and (max-device-width : 640px) {
   .wrapper {
+    background-color: red;
     width: 600px;
   }
   .wrapper img {
     width: 100%;
   }
-  
   #social-links li{
     display: block;
   }
