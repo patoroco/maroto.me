@@ -102,14 +102,19 @@ header h1 {
 -------------------------------------------------------------------------------*/
 @media only screen and (max-device-width : 640px) {
   .wrapper {
-    background-color: red;
-    width: 600px;
+    width: auto;
   }
   .wrapper img {
     width: 100%;
   }
+
   #social-links li{
+    margin: 15px;
     display: block;
+  }
+
+  #last-talks {
+    margin: 10px 15px;
   }
 }
 
