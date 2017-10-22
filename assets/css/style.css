@@ -64,7 +64,6 @@ a.symbol:before {
 .wrapper {
   margin: 0 auto;
   width: 640px;
-  background: red;
 }
 
 header {
